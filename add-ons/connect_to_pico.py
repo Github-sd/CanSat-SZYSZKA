@@ -6,7 +6,7 @@ from datetime import datetime as dt
 MAX_COUNTER = int(input("How many measurements?: "))
 
 serial_connection = serial.Serial("COM5")
-filename = r"D:\cansat\tests\Tests.xlsx"
+filename = r"..\tests\Tests.xlsx"
 wb = load_workbook(filename)
 
 time = f"{dt.now().day}.{dt.now().month}.{dt.now().year}-{dt.now().hour};{dt.now().minute};{dt.now().second}"
