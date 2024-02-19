@@ -33,5 +33,5 @@ while True:
         continue
     print(f"{packet_text[0]} C, {packet_text[1]} hPa")
     pin.on()
-    time.sleep(0.2)
+    time.sleep(0.5)
     pin.off()
